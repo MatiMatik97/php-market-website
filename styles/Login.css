@@ -1,0 +1,57 @@
+body {
+    background-color: #ededed !important;
+}
+
+#mainContent {
+    background-color: #ededed;
+    font-family: "Montserrat", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2C3E50;
+    padding: 50px;
+    text-align: center;
+}
+
+.form {
+    margin-top: 20px;
+    display: inline-block;
+    width: 500px;
+}
+
+.form .form-text {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .form {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 431px) {
+    .form {
+        width: 200px;
+    }
+
+    .form .form-control {
+        font-size: 10px;
+    }
+
+    .form .form-text {
+        font-size: 10px;
+    }
+}
+
+.form input[type=submit] {
+    display: inline-block;
+    width: 90% !important;
+    margin-top: -20px;
+}
+
+.form .invalid-login {
+    margin-top: 20px;
+    font-size: 10px;
+    color: red;
+}

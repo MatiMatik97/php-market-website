@@ -1,0 +1,148 @@
+/*all*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+
+.navbar {
+    font-family: "Montserrat", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #2C3E50 !important;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: white;
+}
+
+.navbar .container .navbar-toggler {
+    background-color: #1ABC9C !important;
+    color: white !important;
+}
+
+.navbar .container .navbar-toggler:hover {
+    background-color: #148F77 !important;
+}
+
+.nav-item a {
+    font-size: 12px;
+    color: white;
+}
+
+.nav-item a:hover, .navbar-brand:hover {
+    color: #1BB799;
+}
+
+.navbar .active {
+    color: #1BB799;
+}
+
+.fa-bars {
+    padding-left: 10px;
+}
+
+/*mainContent*/
+
+#mainContent {
+    margin-top: 55px;
+}
+
+@media only screen and (min-width: 992px) {
+    #mainContent {
+        margin-top: 65px;
+    }
+}
+
+@media only screen and (max-width: 258px) {
+    #mainContent {
+        margin-top: 85px;
+    }
+}
+
+@media only screen and (max-width: 155px) {
+    #mainContent {
+        margin-top: 105px;
+    }
+}
+
+/*footer*/
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    font-family: "Montserrat", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.contact-icon {
+    color: white;
+    font-size: 50px;
+    margin: 0px 10px;
+    transition: 0.1s;
+}
+
+.contact-icon:hover {
+    cursor: pointer;
+    color: #148F77;
+}
+
+.footer-primary-text {
+    font-size: 25px;
+}
+
+.footer-secondary-text {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 431px) {
+    .footer-primary-text {
+        font-size: 20px;
+    }
+
+    .footer-secondary-text {
+        font-size: 10px;
+    }
+
+    .contact-icon {
+        font-size: 30px;
+    }
+}
+
+/*copyright*/
+
+#copyright {
+    padding: 20px;
+    font-family: "Montserrat", serif;
+    background-color: #1A252F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 431px) {
+    #copyright {
+        font-size: 15px;
+    }
+}
+
+/*mainContent*/
+
+.main-content-text {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 431px) {
+    .main-content-text {
+        font-size: 30px;
+    }
+}

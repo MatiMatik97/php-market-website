@@ -1,0 +1,82 @@
+body {
+    background-color: #ededed !important;
+}
+
+#mainContent {
+    background-color: #ededed;
+    font-family: "Montserrat", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #2C3E50;
+    padding: 50px;
+    text-align: center;
+}
+
+.empty-cart-info {
+    font-size: 25px;
+}
+
+.table {
+    font-size: 15px;
+    border-radius: 0px 0px 15px 15px;
+    max-width: 1000px !important;
+    margin: 0 auto;
+}
+
+.table tbody {
+    font-weight: normal;
+}
+
+form input[type=text] {
+    display: none;
+}
+
+.remove-icon {
+    background-color: transparent !important;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+.remove-icon:hover {
+    cursor: pointer;
+    color: #ec3f3f;
+}
+
+.removed-from-cart, .valid-pay {
+    font-size: 10px;
+    color: green;
+}
+
+.invalid-pay {
+    font-size: 10px;
+    color: red;
+}
+
+.form-to-pay {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.form-to-pay p {
+    margin-top: 15px;
+}
+
+.form-to-pay input[type=submit] {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-to-pay {
+        margin-left: auto;
+    }
+
+    .table {
+        font-size: 10px !important;
+    }
+}

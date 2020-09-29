@@ -1,0 +1,33 @@
+body {
+    background-color: #ededed !important;
+}
+
+#mainContent {
+    background-color: #1ABC9C;
+    font-family: "Montserrat", serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#shop-img {
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 431px) {
+    #shop-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 343px) {
+    #shop-img {
+        width: 150px;
+        height: 150px;
+    }
+}
