@@ -109,7 +109,7 @@ if (filter_input(INPUT_GET, "action") == "wyloguj" && isset($_SESSION["id"])) {
 
     <!-- copyright -->
     <section id="copyright">
-        Copyright © Mateusz Kozak 2020
+        Copyright &#169; Mateusz Kozak 2020
     </section>
 
     <!-- timer -->
