@@ -2,6 +2,7 @@ function check(x) {
     return x < 10 ? `0${x}` : x;
 }
 
+// Defining timer() function 
 function timer() {
     const date = new Date();
     const hours = check(date.getHours());
@@ -13,6 +14,8 @@ function timer() {
 }
 
 timer();
-setInterval(() => {
+
+setInterval(function(){
+    // Calling timer() function in every second
     timer();
 }, 1000);
